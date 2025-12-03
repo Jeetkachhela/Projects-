@@ -1,0 +1,16 @@
+Installation
+
+1. Create environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+2. Install dependencies
+pip install -r requirements.txt
+
+PaddleOCR dependencies (Windows)
+pip install paddlepaddle
+pip install paddleocr
+
+ Run Application
+streamlit run app.py
